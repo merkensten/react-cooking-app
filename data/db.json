@@ -36,6 +36,29 @@
       ],
       "method": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse minima ex rem quis similique eum ratione quaerat, voluptas molestias ut repudiandae delectus voluptates. Eius esse at tenetur ab accusamus excepturi?",
       "cookingTime": "35 minutes"
+    },
+    {
+      "title": "Korv stroganof",
+      "ingredients": [
+        "falukorv",
+        "chili sås",
+        "creme fraiche lätt",
+        "ärtor",
+        "ris"
+      ],
+      "method": "lorem ipsum",
+      "cookingTime": "25 minutes",
+      "id": "ZOIlt6E"
+    },
+    {
+      "title": "Tacos",
+      "ingredients": [
+        "lorem",
+        "ipsum"
+      ],
+      "method": "Tacos",
+      "cookingTime": "60 minutes",
+      "id": "4izvQvb"
     }
   ]
 }
