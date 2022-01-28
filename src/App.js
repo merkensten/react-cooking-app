@@ -1,7 +1,9 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { useTheme } from './hooks/useTheme';
 
 // components
 import { Navbar } from './components/navbar/Navbar';
+import { ThemeSelector } from './components/themeselector/ThemeSelector';
 
 // Page components
 import { Home } from './pages/home/Home';
@@ -14,10 +16,12 @@ import { NotFound } from './pages/notfound/NotFound';
 import './App.css';
 
 function App() {
+  const { mode } = useTheme();
   return (
-    <div className="App">
+    <div className={`App ${mode}`}>
       <BrowserRouter>
         <Navbar />
+        <ThemeSelector />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/create" element={<Create />} />
