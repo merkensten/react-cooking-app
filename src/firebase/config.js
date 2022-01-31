@@ -13,7 +13,7 @@ const firebaseConfig = {
 // Initialize Firebase
 firebase.initializeApp(firebaseConfig);
 
-// Initialzr Srervices
+// Initialize Srervices
 const projectFirsestore = firebase.firestore();
 
 export { projectFirsestore };
